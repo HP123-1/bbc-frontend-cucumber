@@ -3,9 +3,7 @@ package uk.co.bbc.propertyreader;
 import java.io.FileInputStream;
 import java.util.Properties;
 
-/**
- * Created by Jay Vaghani
- */
+
 public class PropertyReader {
 
     /*

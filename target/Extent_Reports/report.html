@@ -53,7 +53,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Feb 15, 2022 08:31:51 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Feb 16, 2022 07:35:12 PM</span>
 				</a>
 			</li>
 			<li>
@@ -139,7 +139,7 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>2</span> feature(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>3</span> feature(s) passed</span>
 				</div>
 				<div class='block text-small'>
 					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
@@ -154,7 +154,7 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>4</span> scenario(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>5</span> scenario(s) passed</span>
 				</div>
 				<div class='block text-small'>
 					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
@@ -169,7 +169,7 @@
 					<canvas id='grandchild-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>21</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>24</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
 					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
@@ -189,12 +189,12 @@
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>As a QA, I would like to verify all negative scenarios for login</span>
-						<span class='test-time'>Feb 15, 2022 08:31:52 PM</span>
+						<span class='test-time'>Feb 16, 2022 07:35:12 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenariooutline node' test-id='2' status='pass'>
-	<span class='duration right label'>0h 0m 46s+325ms</span>
+	<span class='duration right label'>0h 2m 33s+688ms</span>
 	<div class='desc'>
 		<b>ScenarioOutline</b>
 		<span class="desc-text">Select ‘Sign in’, and enter as many negative scenarios as possible. Verify that a error message is displayed and the text that it</span>
@@ -316,8 +316,8 @@
 				
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='24'>
 					<div class='test-heading'>
-						<span class='test-name'>As a sports user, I would like to read about all articles related to sports</span>
-						<span class='test-time'>Feb 15, 2022 08:32:40 PM</span>
+						<span class='test-name'>List of Teams</span>
+						<span class='test-time'>Feb 16, 2022 07:37:47 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
@@ -325,17 +325,17 @@
 	<div class='category-list'>
 		<span class='category label white-text'>@Smoke</span>
 	</div>
-	<span class='duration right label'>0h 0m 10s+490ms</span>
+	<span class='duration right label'>0h 0m 13s+484ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
-		<span class="desc-text">Use the search option to find all articles related to ‘sports’. Output the first heading and the last heading returned on the page.</span>
+		<span class="desc-text">Output all team names with a match today</span>
 	</div>
 	<ul class='steps'>
 		<li test-id='26' class='node given pass' status='pass'>
 			
 			<b>Given</b>
 			
-			<span class="bdd-step-name">Given I am on homepage</span>
+			<span class="bdd-step-name">Given User is on BBC football page</span>
 				<div class='pre'>passed</div>
 			
 		</li>
@@ -343,7 +343,7 @@
 			
 			<b>When</b>
 			
-			<span class="bdd-step-name">When I click on search option "sports"</span>
+			<span class="bdd-step-name">When Today's date is selected</span>
 				<div class='pre'>passed</div>
 			
 		</li>
@@ -351,7 +351,54 @@
 			
 			<b>Then</b>
 			
-			<span class="bdd-step-name">Then I should navigate to page successfully</span>
+			<span class="bdd-step-name">Then I can see the list of matches</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+	</ul>
+</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='29'>
+					<div class='test-heading'>
+						<span class='test-name'>As a sports user, I would like to read about all articles related to sports</span>
+						<span class='test-time'>Feb 16, 2022 07:38:02 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='scenario node' test-id='30' status='pass'>
+	<div class='category-list'>
+		<span class='category label white-text'>@Smoke</span>
+	</div>
+	<span class='duration right label'>0h 0m 15s+882ms</span>
+	<div class='desc'>
+		<b>Scenario</b>
+		<span class="desc-text">Use the search option to find all articles related to ‘sports’. Output the first heading and the last heading returned on the page.</span>
+	</div>
+	<ul class='steps'>
+		<li test-id='31' class='node given pass' status='pass'>
+			
+			<b>Given</b>
+			
+			<span class="bdd-step-name">Given I am on homepage</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='32' class='node when pass' status='pass'>
+			
+			<b>When</b>
+			
+			<span class="bdd-step-name">When I search the "sports"</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='33' class='node then pass' status='pass'>
+			
+			<b>Then</b>
+			
+			<span class="bdd-step-name">Then I should see the first and last article</span>
 				<div class='pre'>passed</div>
 			
 		</li>
@@ -413,12 +460,12 @@
 					<div class='category-heading'>
 						<span class='category-name'>@Smoke</span>
 						<span class='category-status right'>
-							<span class='label pass'>4</span>
+							<span class='label pass'>5</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 4</span>
+							<span class='label green accent-4 white-text'>Passed: 5</span>
 							
 							
 						</div>
@@ -434,23 +481,28 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Feb 15, 2022 08:31:52 PM</td>
+										<td>Feb 16, 2022 07:35:12 PM</td>
 										<td class='linked' test-id='3'>As a QA, I would like to verify all negative scenarios for login.Select ‘Sign in’, and enter as many negative scenarios as possible. Verify that a error message is displayed and the text that it.Select ‘Sign in’, and enter as many negative scenarios as possible. Verify that a error message is displayed and the text that it</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Feb 15, 2022 08:32:11 PM</td>
+										<td>Feb 16, 2022 07:36:48 PM</td>
 										<td class='linked' test-id='10'>As a QA, I would like to verify all negative scenarios for login.Select ‘Sign in’, and enter as many negative scenarios as possible. Verify that a error message is displayed and the text that it.Select ‘Sign in’, and enter as many negative scenarios as possible. Verify that a error message is displayed and the text that it</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Feb 15, 2022 08:32:25 PM</td>
+										<td>Feb 16, 2022 07:37:27 PM</td>
 										<td class='linked' test-id='17'>As a QA, I would like to verify all negative scenarios for login.Select ‘Sign in’, and enter as many negative scenarios as possible. Verify that a error message is displayed and the text that it.Select ‘Sign in’, and enter as many negative scenarios as possible. Verify that a error message is displayed and the text that it</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Feb 15, 2022 08:32:40 PM</td>
-										<td class='linked' test-id='25'>As a sports user, I would like to read about all articles related to sports.Use the search option to find all articles related to ‘sports’. Output the first heading and the last heading returned on the page.</td>
+										<td>Feb 16, 2022 07:37:47 PM</td>
+										<td class='linked' test-id='25'>List of Teams.Output all team names with a match today</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Feb 16, 2022 07:38:02 PM</td>
+										<td class='linked' test-id='30'>As a sports user, I would like to read about all articles related to sports.Use the search option to find all articles related to ‘sports’. Output the first heading and the last heading returned on the page.</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
@@ -498,12 +550,12 @@
                             <div class='author-heading'>
                                 <span class='author-name'>Hinal</span>
                                 <span class='author-status right'>
-                                        <span class='label pass'>4</span>
+                                        <span class='label pass'>5</span>
 						        </span>
                             </div>
                             <div class='author-content hide'>
                                 <div class='author-status-counts'>
-                                    <span class='label green accent-4 white-text'>Passed: 4</span>
+                                    <span class='label green accent-4 white-text'>Passed: 5</span>
                                     
                                     
                                 </div>
@@ -519,23 +571,28 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>Feb 15, 2022 08:31:52 PM</td>
+                                                <td>Feb 16, 2022 07:35:12 PM</td>
                                                 <td class='linked' test-id='3'>As a QA, I would like to verify all negative scenarios for login.Select ‘Sign in’, and enter as many negative scenarios as possible. Verify that a error message is displayed and the text that it.Select ‘Sign in’, and enter as many negative scenarios as possible. Verify that a error message is displayed and the text that it</td>
                                                 <td><span class='test-status pass'>pass</span></td>
                                             </tr>
                                             <tr>
-                                                <td>Feb 15, 2022 08:32:11 PM</td>
+                                                <td>Feb 16, 2022 07:36:48 PM</td>
                                                 <td class='linked' test-id='10'>As a QA, I would like to verify all negative scenarios for login.Select ‘Sign in’, and enter as many negative scenarios as possible. Verify that a error message is displayed and the text that it.Select ‘Sign in’, and enter as many negative scenarios as possible. Verify that a error message is displayed and the text that it</td>
                                                 <td><span class='test-status pass'>pass</span></td>
                                             </tr>
                                             <tr>
-                                                <td>Feb 15, 2022 08:32:25 PM</td>
+                                                <td>Feb 16, 2022 07:37:27 PM</td>
                                                 <td class='linked' test-id='17'>As a QA, I would like to verify all negative scenarios for login.Select ‘Sign in’, and enter as many negative scenarios as possible. Verify that a error message is displayed and the text that it.Select ‘Sign in’, and enter as many negative scenarios as possible. Verify that a error message is displayed and the text that it</td>
                                                 <td><span class='test-status pass'>pass</span></td>
                                             </tr>
                                             <tr>
-                                                <td>Feb 15, 2022 08:32:40 PM</td>
-                                                <td class='linked' test-id='25'>As a sports user, I would like to read about all articles related to sports.Use the search option to find all articles related to ‘sports’. Output the first heading and the last heading returned on the page.</td>
+                                                <td>Feb 16, 2022 07:37:47 PM</td>
+                                                <td class='linked' test-id='25'>List of Teams.Output all team names with a match today</td>
+                                                <td><span class='test-status pass'>pass</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Feb 16, 2022 07:38:02 PM</td>
+                                                <td class='linked' test-id='30'>As a sports user, I would like to read about all articles related to sports.Use the search option to find all articles related to ‘sports’. Output the first heading and the last heading returned on the page.</td>
                                                 <td><span class='test-status pass'>pass</span></td>
                                             </tr>
                                         </tbody>
@@ -563,37 +620,37 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Features
-					<div class='panel-lead'>2</div>
+					<div class='panel-lead'>3</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Scenarios
-					<div class='panel-lead'>4</div>
+					<div class='panel-lead'>5</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>21</div>
+					<div class='panel-lead'>24</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Feb 15, 2022 08:31:51 PM</div>
+					<div class='panel-lead'>Feb 16, 2022 07:35:12 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Feb 15, 2022 08:32:52 PM</div>
+			 		<div class='panel-lead'>Feb 16, 2022 07:38:18 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>60,757ms</div>
+					<div class='panel-lead'>186,375ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -646,7 +703,7 @@
 						</tr>
 						<tr>
 							<td>@Smoke</td>
-							<td>4</td>
+							<td>5</td>
 							<td>0</td>
 							<td>0</td>
 							<td>
@@ -666,7 +723,7 @@
 
 		<script>
 			var statusGroup = {
-				passParent: 2,
+				passParent: 3,
 				failParent: 0,
 				fatalParent: 0,
 				errorParent: 0,
@@ -674,7 +731,7 @@
 				skipParent: 0,
 				exceptionsParent: 0,
 				
-				passChild: 4,
+				passChild: 5,
 				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,
@@ -683,7 +740,7 @@
 				infoChild: 0,
 				exceptionsChild: 0,
 				
-				passGrandChild: 21,
+				passGrandChild: 24,
 				failGrandChild: 0,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,

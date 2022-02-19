@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4d716d00-484e-4c29-93c6-a18dead4e89d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/co/bbc/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/uk/co/bbc/cucumber/steps/HomePageSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/uk/co/bbc/cucumber/steps/SearchPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/co/bbc/logs/log.out" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/co/bbc/logs/log.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/co/bbc/pages/loginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/co/bbc/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/co/bbc/pages/searchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/co/bbc/pages/SearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/co/bbc/propertyreader/PropertyReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/co/bbc/propertyreader/PropertyReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/co/bbc/screenshot/Output_all_team_names_with_a_match_today20220214102826.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/co/bbc/screenshot/Output_all_team_names_with_a_match_today20220214103637.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/co/bbc/screenshot/Output_all_team_names_with_a_match_today20220214104021.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/co/bbc/screenshot/Output_all_team_names_with_a_match_today20220214105137.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/co/bbc/screenshot/Output_all_team_names_with_a_match_today20220215082545.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/co/bbc/screenshot/Output_all_team_names_with_a_match_today20220215082627.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/co/bbc/screenshot/Output_all_team_names_with_a_match_today20220215083007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/featurefile/match.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/featurefile/match.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/featurefile/sports.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/featurefile/sports.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/uk/co/bbc/cucumber/steps/MyStepdefs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/uk/co/bbc/cucumber/steps/MyStepsearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/uk/co/bbc/cucumber/steps/loginStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/uk/co/bbc/cucumber/steps/LoginPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/Extent_Reports/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RunCuke/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/RunCuke/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uk/co/bbc/pages/loginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uk/co/bbc/pages/loginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uk/co/bbc/pages/searchPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uk/co/bbc/pages/searchPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report/cucumber.html/formatter.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-report/cucumber.html/formatter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report/cucumber.html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-report/cucumber.html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report/cucumber.html/jquery-1.8.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-report/cucumber.html/jquery-1.8.2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report/cucumber.html/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-report/cucumber.html/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report/cucumber.html/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-report/cucumber.html/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/uk/co/bbc/cucumber/steps/MyStepdefs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/uk/co/bbc/cucumber/steps/MyStepsearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/uk/co/bbc/cucumber/steps/loginStep.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="25CnTmdqUpDxJo8RgYqklCazvEd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="CSV" />
+  </component>
+  <component name="RunManager">
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bbc-frontend-cucumber-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uk.co.bbc.cucumber.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="uk.co.bbc.cucumber" />
+      <option name="MAIN_CLASS_NAME" value="uk.co.bbc.cucumber.TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestRunner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d716d00-484e-4c29-93c6-a18dead4e89d" name="Changes" comment="" />
+      <created>1645039948547</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645039948547</updated>
+    </task>
+    <servers />
+  </component>
+</project>

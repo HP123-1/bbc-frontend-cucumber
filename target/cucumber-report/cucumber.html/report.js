@@ -96,7 +96,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 12677249600,
+  "duration": 86170215200,
   "status": "passed"
 });
 formatter.scenario({
@@ -153,17 +153,17 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "MyStepdefs.iAmOnHomepage()"
+  "location": "HomePageSteps.iAmOnHomepage()"
 });
 formatter.result({
-  "duration": 289002000,
+  "duration": 174790500,
   "status": "passed"
 });
 formatter.match({
-  "location": "loginStep.iClickOnLoginLink()"
+  "location": "LoginPageSteps.iClickOnLoginLink()"
 });
 formatter.result({
-  "duration": 246991200,
+  "duration": 210224000,
   "status": "passed"
 });
 formatter.match({
@@ -173,10 +173,10 @@ formatter.match({
       "offset": 15
     }
   ],
-  "location": "loginStep.iEnterEmail(String)"
+  "location": "LoginPageSteps.iEnterEmail(String)"
 });
 formatter.result({
-  "duration": 3013684100,
+  "duration": 7372275600,
   "status": "passed"
 });
 formatter.match({
@@ -186,17 +186,17 @@ formatter.match({
       "offset": 18
     }
   ],
-  "location": "loginStep.iEnterPassword(String)"
+  "location": "LoginPageSteps.iEnterPassword(String)"
 });
 formatter.result({
-  "duration": 193153500,
+  "duration": 167213500,
   "status": "passed"
 });
 formatter.match({
-  "location": "loginStep.iClickOnLoginButton()"
+  "location": "LoginPageSteps.iClickOnLoginButton()"
 });
 formatter.result({
-  "duration": 124657900,
+  "duration": 120436400,
   "status": "passed"
 });
 formatter.match({
@@ -206,18 +206,18 @@ formatter.match({
       "offset": 32
     }
   ],
-  "location": "loginStep.iShouldSeeTheErrorMessage(String)"
+  "location": "LoginPageSteps.iShouldSeeTheErrorMessage(String)"
 });
 formatter.result({
-  "duration": 73356100,
+  "duration": 93305400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1665832700,
+  "duration": 1173001700,
   "status": "passed"
 });
 formatter.before({
-  "duration": 9874277200,
+  "duration": 12778030200,
   "status": "passed"
 });
 formatter.scenario({
@@ -274,17 +274,17 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "MyStepdefs.iAmOnHomepage()"
+  "location": "HomePageSteps.iAmOnHomepage()"
 });
 formatter.result({
-  "duration": 56900,
+  "duration": 52700,
   "status": "passed"
 });
 formatter.match({
-  "location": "loginStep.iClickOnLoginLink()"
+  "location": "LoginPageSteps.iClickOnLoginLink()"
 });
 formatter.result({
-  "duration": 152903400,
+  "duration": 87278200,
   "status": "passed"
 });
 formatter.match({
@@ -294,10 +294,10 @@ formatter.match({
       "offset": 15
     }
   ],
-  "location": "loginStep.iEnterEmail(String)"
+  "location": "LoginPageSteps.iEnterEmail(String)"
 });
 formatter.result({
-  "duration": 2263852200,
+  "duration": 24328251000,
   "status": "passed"
 });
 formatter.match({
@@ -307,17 +307,17 @@ formatter.match({
       "offset": 18
     }
   ],
-  "location": "loginStep.iEnterPassword(String)"
+  "location": "LoginPageSteps.iEnterPassword(String)"
 });
 formatter.result({
-  "duration": 197804700,
+  "duration": 176406100,
   "status": "passed"
 });
 formatter.match({
-  "location": "loginStep.iClickOnLoginButton()"
+  "location": "LoginPageSteps.iClickOnLoginButton()"
 });
 formatter.result({
-  "duration": 121190300,
+  "duration": 139617300,
   "status": "passed"
 });
 formatter.match({
@@ -327,18 +327,18 @@ formatter.match({
       "offset": 32
     }
   ],
-  "location": "loginStep.iShouldSeeTheErrorMessage(String)"
+  "location": "LoginPageSteps.iShouldSeeTheErrorMessage(String)"
 });
 formatter.result({
-  "duration": 105003500,
+  "duration": 65331200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 2006511900,
+  "duration": 1364476000,
   "status": "passed"
 });
 formatter.before({
-  "duration": 9698717200,
+  "duration": 9245445900,
   "status": "passed"
 });
 formatter.scenario({
@@ -395,17 +395,17 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "MyStepdefs.iAmOnHomepage()"
+  "location": "HomePageSteps.iAmOnHomepage()"
 });
 formatter.result({
-  "duration": 34800,
+  "duration": 32000,
   "status": "passed"
 });
 formatter.match({
-  "location": "loginStep.iClickOnLoginLink()"
+  "location": "LoginPageSteps.iClickOnLoginLink()"
 });
 formatter.result({
-  "duration": 351044300,
+  "duration": 120412900,
   "status": "passed"
 });
 formatter.match({
@@ -415,10 +415,10 @@ formatter.match({
       "offset": 15
     }
   ],
-  "location": "loginStep.iEnterEmail(String)"
+  "location": "LoginPageSteps.iEnterEmail(String)"
 });
 formatter.result({
-  "duration": 2328265900,
+  "duration": 9223510700,
   "status": "passed"
 });
 formatter.match({
@@ -428,17 +428,17 @@ formatter.match({
       "offset": 18
     }
   ],
-  "location": "loginStep.iEnterPassword(String)"
+  "location": "LoginPageSteps.iEnterPassword(String)"
 });
 formatter.result({
-  "duration": 225663700,
+  "duration": 202162500,
   "status": "passed"
 });
 formatter.match({
-  "location": "loginStep.iClickOnLoginButton()"
+  "location": "LoginPageSteps.iClickOnLoginButton()"
 });
 formatter.result({
-  "duration": 160051100,
+  "duration": 121796600,
   "status": "passed"
 });
 formatter.match({
@@ -448,14 +448,87 @@ formatter.match({
       "offset": 32
     }
   ],
-  "location": "loginStep.iShouldSeeTheErrorMessage(String)"
+  "location": "LoginPageSteps.iShouldSeeTheErrorMessage(String)"
 });
 formatter.result({
-  "duration": 72449400,
+  "duration": 52443800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1556006800,
+  "duration": 1219471100,
+  "status": "passed"
+});
+formatter.uri("match.feature");
+formatter.feature({
+  "line": 1,
+  "name": "List of Teams",
+  "description": "As a business user, I would like to make a record of all teams which are playing today",
+  "id": "list-of-teams",
+  "keyword": "Feature"
+});
+formatter.before({
+  "duration": 12664579100,
+  "status": "passed"
+});
+formatter.background({
+  "line": 4,
+  "name": "User is on BBC football page",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.scenario({
+  "line": 7,
+  "name": "Output all team names with a match today",
+  "description": "",
+  "id": "list-of-teams;output-all-team-names-with-a-match-today",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 6,
+      "name": "@Smoke"
+    }
+  ]
+});
+formatter.step({
+  "line": 8,
+  "name": "User is on BBC football page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 9,
+  "name": "Today\u0027s date is selected",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 10,
+  "name": "I can see the list of matches",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "HomePageSteps.userIsOnBBCFootballPage()"
+});
+formatter.result({
+  "duration": 32100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "HomePageSteps.todaySDateIsSelected()"
+});
+formatter.result({
+  "duration": 31000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "HomePageSteps.iCanSeeTheListOfMatches()"
+});
+formatter.result({
+  "duration": 812777600,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 859394200,
   "status": "passed"
 });
 formatter.uri("sports.feature");
@@ -467,7 +540,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 10207997800,
+  "duration": 11701212700,
   "status": "passed"
 });
 formatter.scenario({
@@ -491,43 +564,43 @@ formatter.step({
 });
 formatter.step({
   "line": 5,
-  "name": "I click on search option \"sports\"",
+  "name": "I search the \"sports\"",
   "keyword": "When "
 });
 formatter.step({
   "line": 6,
-  "name": "I should navigate to page successfully",
+  "name": "I should see the first and last article",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "MyStepdefs.iAmOnHomepage()"
+  "location": "HomePageSteps.iAmOnHomepage()"
 });
 formatter.result({
-  "duration": 37400,
+  "duration": 44000,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
       "val": "sports",
-      "offset": 26
+      "offset": 14
     }
   ],
-  "location": "MyStepsearch.iClickOnSearchOption(String)"
+  "location": "SearchPageSteps.iSearchThe(String)"
 });
 formatter.result({
-  "duration": 257764800,
+  "duration": 4082598100,
   "status": "passed"
 });
 formatter.match({
-  "location": "MyStepsearch.iShouldNavigateToPageSuccessfully()"
+  "location": "SearchPageSteps.iShouldSeeTheFirstAndLastArticle()"
 });
 formatter.result({
-  "duration": 29000,
+  "duration": 88401100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1752619100,
+  "duration": 879679500,
   "status": "passed"
 });
 });

@@ -3,9 +3,9 @@ Feature: List of Teams
 
   Background: User is on BBC football page
 
-
+  @Smoke
   Scenario: Output all team names with a match today
     Given User is on BBC football page
-    When  User click on date
-    Then User should be able to see list of all matches for that date
+    When Today's date is selected
+    Then I can see the list of matches
 

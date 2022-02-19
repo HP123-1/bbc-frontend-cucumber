@@ -8,10 +8,10 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import uk.co.bbc.utility.Utility;
 
-public class loginPage extends Utility {
-    private static final Logger log = LogManager.getLogger(loginPage.class.getName());
+public class LoginPage extends Utility {
+    private static final Logger log = LogManager.getLogger(LoginPage.class.getName());
 
-    public loginPage() {
+    public LoginPage() {
         PageFactory.initElements(driver, this);
     }
 
